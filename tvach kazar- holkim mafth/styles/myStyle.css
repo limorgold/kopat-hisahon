@@ -1,0 +1,323 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap'); /*הגדרת פונט*/
+
+body {
+    width: 1280px;
+    height: 600px; /*לבדוק למה הגובה לא עובד*/
+    direction: rtl;
+    margin: 0 auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #000000;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 16px;
+}
+/*הגדרת גודל עמוד, פונט, גודל פונט, מרגין*/
+
+#back {
+    background-image: url('../imeg/short.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 1000px;
+}
+/*הגדרת תמונת רקע*/
+
+
+.navigation {
+    height: 100px;
+    background: #FFDE55;
+}
+/*רקע צהוב לתפריט*/
+
+.nav-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.brand {
+    position: relative;
+    left: 900px;
+}
+    /* מיקום לוגו*/
+
+    .brand a img {
+        height: 96px;
+        width: 96px;
+    }
+/*גודל לוגו*/
+
+nav ul {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    left: 100px;
+}
+    /*הגדרה לתפריט הראשי*/
+
+    nav ul li a {
+        display: block;
+        padding: 15px;
+        line-height: 20px;
+        font-size: 20px;
+        color: #000000;
+        text-decoration: none;
+    }
+        /*הגדרה לתפריט משני*/
+
+        nav ul li a:hover {
+            background: #000000;
+            color: #ffffff;
+        }
+            /*הגדרת צבע למעבר עכבר*/
+
+            nav ul li a:hover + .nav-dropdown {
+                display: flex;
+            }
+
+.nav-dropdown {
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: none;
+    text-align: center;
+    background: #FFDE55;
+    z-index: 1;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+}
+    /*לבדוק עם רן מכאן והלאה*/
+
+    .nav-dropdown:hover {
+        display: flex;
+    }
+
+    .nav-dropdown li a {
+        padding: 15px;
+        line-height: 20px;
+    }
+
+    .nav-dropdown .nav-dropdown-row {
+        flex-direction: row;
+    }
+
+        .nav-dropdown .nav-dropdown-row li {
+            height: 100%;
+        }
+
+    .nav-dropdown .nav-dropdown-col {
+        flex-direction: column;
+    }
+
+        .nav-dropdown .nav-dropdown-col li {
+            width: 100%;
+        }
+
+#pirori {
+    margin-top: -30px;
+}
+
+    #pirori > a {
+        text-decoration: none;
+    }
+
+#ngishot {
+    font-size: 40px;
+    background-color: white;
+    color: black;
+    border: solid black 2px;
+    position: relative;
+    right: 1210px;
+}
+
+    #ngishot:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+
+article {
+    position: relative;
+    right: 50px;
+}
+/*הגדרה למיקום תוכן הדף כולל כותרת*/
+
+h1 {
+    font-size: 28px;
+    text-align: center;
+    margin-top: 120px;
+    margin-left: 170px;
+}
+
+
+#koteret1 {
+    position: absolute;
+    font-size: 22px;
+    margin-top: -105px
+}
+
+#section1 {
+    margin-top: -80px;
+    margin-right: -10px
+}
+
+#koteret2 {
+    position: absolute;
+    font-size: 22px;
+    margin-top: -155px
+}
+
+#section2 {
+    margin-top: -130px;
+    margin-right: -10px;
+}
+
+#koteret3 {
+    position: absolute;
+    font-size: 22px;
+    margin-top: -155px
+}
+
+article > section {
+    margin: 20px 20px;
+    padding: 10px;
+}
+
+#section3 {
+    margin-top: -140px;
+    margin-right: -10px;
+}
+
+
+#brush1 {
+    background-image: url('../imeg/yellow_brush_1.svg');
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 160px;
+    position: relative;
+    top: 43px;
+    left: 15px;
+}
+
+#brush2 {
+    background-image: url('../imeg/yellow_brush_1.svg');
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 160px;
+    position: relative;
+    top: -10px;
+    left: 15px;
+}
+
+#brush3 {
+    background-image: url('../imeg/yellow_brush_1.svg');
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 160px;
+    position: relative;
+    top: -10px;
+    left: 15px;
+}
+
+
+section > img {
+    position: absolute;
+    bottom: 110px;
+    right: 840px;
+}
+
+footer {
+    position: relative;
+    bottom:20px;
+}
+
+
+#footer {
+    display: flex;
+    justify-content: space-around;
+    background-image: url('../imeg/footer.png');
+    position: absolute;
+    top: 30px;
+    width: 1280px;
+    height: 330px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.not-allowed:hover {
+    cursor: not-allowed
+}
+
+.firstrow {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#mcirim {
+    position: absolute;
+}
+
+    #mcirim > li {
+        position: relative;
+        bottom: -220px;
+        right: 230px;
+        list-style: none;
+        line-height: 25px;
+        top: 150px;
+    }
+
+        #mcirim > li > a {
+            text-decoration: none;
+            color: black;
+        }
+
+#holkim {
+    position: absolute;
+}
+
+    #holkim > li {
+        position: relative;
+        bottom: -220px;
+        right: 450px;
+        list-style: none;
+        line-height: 25px;
+        top: 150px;
+    }
+
+        #holkim > li > a {
+            text-decoration: none;
+            color: black;
+        }
+
+
+#tkoim > li {
+    position: relative;
+    bottom: -230px;
+    right: 690px;
+    list-style: none;
+    line-height: 25px;
+    top: 165px;
+}
+
+    #tkoim > li > a {
+        text-decoration: none;
+        color: black;
+    }
+
+#aboutus > li {
+    position: relative;
+    right: 920px;
+    bottom: -40px;
+    list-style: none;
+    line-height: 25px;
+    top: -30px;
+}
+
+    #aboutus > li > a {
+        text-decoration: none;
+        color: black;
+    }
