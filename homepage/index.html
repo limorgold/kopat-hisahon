@@ -1,0 +1,222 @@
+﻿<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="imeg/logo.svg" />
+    <title>קופת חיסכון</title>
+    <meta name="description" content="עוזר לכם לחסוך" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+
+    <!--<link href="styles/reset.css" rel="stylesheet" />-->
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+    <!-- JS -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+
+    <!--<head>
+
+        <link rel="apple-touch-icon" href="logo.svg" />
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>-->
+</head>
+
+<body>
+    <div id="back">
+        <section class="navigation" role="navigation">
+            <div class="nav-container">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="../homepage/index.html">עמוד הבית</a>
+                        </li>
+                        <li>
+                            <a href="#!"> סטטוס▾</a>
+                            <ul class="nav-dropdown nav-dropdown-row">
+                                <li>
+                                    <a href="../mecirim lahorim/mcirim lahorim.html">מכירים להורים▾</a>
+                                    <ul class="nav-dropdown nav-dropdown-col">
+                                        <li>
+                                            <a href="https://limorgold.github.io/piggi_bank/piggi%20bank.html">לא קמצן חסכן</a>
+                                        </li>
+                                        <li>
+                                            <a class="not-allowed" href="#!">רוצה מול צריך</a>
+                                        </li>
+                                        <li>
+                                            <a class="not-allowed" href="#!">בזבוזים באחוזים</a>
+                                        </li>
+                                        <li>
+                                            <a class="not-allowed" href="#!">עושים את זה נכון</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="../holkim mafteach/holkim mafteach.html">חולקים מפתח▾</a>
+                                    <ul class="nav-dropdown nav-dropdown-col">
+                                        <li>
+                                            <a href="https://limorgold.github.io/piggi_bank/piggi%20bank.html">לא קמצן חסכן</a>
+                                        </li>
+                                        <li>
+                                            <a class="not-allowed" href="#!">רוצה מול צריך</a>
+                                        </li>
+                                        <li>
+                                            <a class="not-allowed" href="#!">בזבוזים באחוזים</a>
+                                        </li>
+                                        <li>
+                                            <a class="not-allowed" href="#!">עושים את זה נכון</a>
+                                        </li>
+                                        <li>
+                                            <a class="not-allowed" href="#!">המדריך לניירת</a>
+                                        </li>
+                                        <li>
+                                            <a href="../ShekelLavan.holkim mafth/shekelLavan.holkim mafth.html">שקל לבן ליום שחור</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="..//tkoim yhad/tkoim yhad/tkoim yhad.html">תקועים יחד▾  </a>
+                                    <ul class="nav-dropdown nav-dropdown-col">
+                                        <li>
+                                            <a href="https://limorgold.github.io/piggi_bank/piggi%20bank.html">לא קמצן חסכן</a>
+                                        </li>
+                                        <li>
+                                            <a class="not-allowed" href="#!">רוצה מול צריך</a>
+                                        </li>
+                                        <li>
+                                            <a class="not-allowed" href="#!">בזבוזים באחוזים</a>
+                                        </li>
+                                        <li>
+                                            <a class="not-allowed" href="#!">עושים את זה נכון</a>
+                                        </li>
+                                        <li>
+                                            <a class="not-allowed" href="#!">המדריך לניירת</a>
+                                        </li>
+                                        <li>
+                                            <a href="../ShekelLavan.tkoim yhad.HTML/shekelLavan.tkoim yhad.html">שקל לבן ליום שחור</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="../About.HTML/about.html">אודות</a>
+                        </li>
+
+                        <li>
+                            <a href="../ContactUs.HTML/contactUS.html">צור קשר</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="brand">
+                    <a href="../homepage/index.html">
+                        <img src="imeg/logo.svg" />
+                    </a>
+                </div>
+            </div>
+        </section>
+        <div id="brush"></div>
+        <input id="ngishot" type="button" onclick="zoom()" value="Aa" />
+        <script>
+            var zoomin = true;
+            function zoom() {
+                var body = document.getElementsByTagName('body')[0];
+                zoomin == true ? body.style.zoom = "200%" : body.style.zoom = "100%";
+                zoomin == true ? zoomin = false : zoomin = true;
+            }
+        </script>
+        <aside id="banner" role="banner">
+            כלכלה לזוגות צעירים, בואו נדבר <b>תכל'ס.</b>
+
+        </aside>
+        <article role="main">
+            <section>
+                <h1> אז מה הסטטוס שלכם?</h1>
+                <section id="reka_mecirim">
+                    <img src="imeg/bg_holkimBotton.png" width="300" height="500" />
+                    <img id="mecirim2" src="imeg/mecirim_img_2.png" width="180" height="180" />
+                    <img id="mecirim1" src="imeg/mecirim_img_1.png" width="180" height="180" />
+                    <h2 class="mecirim_text"> מכירים להורים</h2>
+                    <p class="mecirim_text">
+                        <b>
+                            כבר מספיק רציניים בשביל לדבר על כסף?
+                        </b>
+                        <br />כאן תלמדו איך להתחיל להתנהל כלכלית נכון בקשר
+                    </p>
+                    <a class="color" href="../mecirim lahorim/mcirim lahorim.html">קח אותי לשם ></a>
+                </section>
+
+                <section id="reka_holkim">
+                    <img src="imeg/bg_mecirimBotton.png" width="300" height="500" />
+                    <img id="holkim2" src="imeg/holkim_img_2.png" width="180" height="180" />
+                    <img id="holkim1" src="imeg/holkim_img_1.png" width="180" height="180" />
+                    <h2 class="holkim_text"> חולקים מפתח</h2>
+                    <p class="holkim_text">
+                        <b>
+                            המעבר לגור יחד!
+                        </b>
+                        בואו לגלות איך להתנהל כלכלית
+                        <b>
+                            במינימום סיכון<br />
+                            ומקסימום אהבה!
+                        </b>
+                    </p>
+                    <a class="color" href="../holkim mafteach/holkim mafteach.html"> קח אותי לשם > </a>
+                </section>
+                <section id="reka_tkuim">
+                    <img src="imeg/bg_tkuimBotton_1.png" width="300" height="500" />
+                    <img id="tkuim2" src="imeg/tkuim_img_2.png" width="180" height="180" />
+                    <img id="tkuim1" src="imeg/tkuim_img_1.png" width="180" height="180" />
+                    <h2 class="tkuim_text"> תקועים יחד</h2>
+                    <p class="tkuim_text">
+                        רגע לפני שהדלת נסגרת והחיים יחד מתחילים יש
+                        <b>
+                            החלטות משותפות שצריך לקבל
+                        </b>
+                    </p>
+                    <a class="color" href="../tkoim yhad/tkoim yhad/tkoim yhad.html"> קח אותי לשם > </a>
+                </section>
+            </section>
+
+        </article>
+
+        <footer>
+            <div id="footer"></div>
+            <ul id="mcirim">
+                <li class="firstrow"><a href="../mecirim lahorim/mcirim lahorim.html">מכירים להורים</a></li>
+                <li><a href="https://limorgold.github.io/piggi_bank/piggi%20bank.html">לא קמצן, חסכן!</a></li>
+                <li><a class="not-allowed" href="#!">רוצה מול צריך</a></li>
+                <li><a class="not-allowed" href="#!">בזבוזים באחוזים</a></li>
+                <li><a class="not-allowed" href="#!">עושים את זה נכון</a></li>
+            </ul>
+            <ul id="holkim">
+                <li class="firstrow"><a href="../holkim mafteach/holkim mafteach.html">חולקים מפתח</a></li>
+                <li><a href="https://limorgold.github.io/piggi_bank/piggi%20bank.html">לא קמצן, חסכן!</a></li>
+                <li><a class="not-allowed" href="#!">רוצה מול צריך</a></li>
+                <li><a class="not-allowed" href="#!">בזבוזים באחוזים</a></li>
+                <li><a class="not-allowed" href="#!">עושים את זה נכון</a></li>
+                <li><a class="not-allowed" href="#!">המדריך לניירת</a></li>
+                <li><a href="../ShekelLavan.holkim mafth/shekelLavan.holkim mafth.html">שקל לבן ליום שחור</a></li>
+            </ul>
+
+            <ul id="tkoim">
+                <li class="firstrow"><a href="../tkoim yhad/tkoim yhad/tkoim yhad.html">תקועים יחד</a></li>
+                <li><a href="https://limorgold.github.io/piggi_bank/piggi%20bank.html">לא קמצן, חסכן!</a></li>
+                <li><a class="not-allowed" href="#!">רוצה מול צריך</a></li>
+                <li><a class="not-allowed" href="#!">בזבוזים באחוזים</a></li>
+                <li><a class="not-allowed" href="#!">עושים את זה נכון</a></li>
+                <li><a class="not-allowed" href="#!">המדריך לניירת</a></li>
+                <li><a href="../ShekelLavan.tkoim yhad.HTML/shekelLavan.tkoim yhad.html">שקל לבן ליום שחור</a></li>
+            </ul>
+
+            <ul id="aboutus">
+                <li><a href="../About.HTML/about.html">אודות</a></li>
+                <li><a href="../ContactUs.HTML/contactUS.html">צור קשר</a></li>
+            </ul>
+        </footer>
+    </div>
+</body>
+</html>

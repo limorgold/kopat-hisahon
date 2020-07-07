@@ -1,0 +1,359 @@
+﻿<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="imeg/logo.svg" />
+    <title>צור קשר - קופת חיסכון</title>
+    <meta name="description" content="עוזר לכם לחסוך" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+
+    <!--<link href="styles/reset.css" rel="stylesheet" />-->
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+    <!-- JS -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+
+    <!--<head>
+
+        <link rel="apple-touch-icon" href="logo.svg" />
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>-->
+</head>
+
+<body>
+    <div id="back">
+        <section class="navigation" role="navigation">
+            <div class="nav-container">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="../homepage/index.html">עמוד הבית</a>
+                        </li>
+                        <li>
+                            <a href="#!"> סטטוס▾</a>
+                            <ul class="nav-dropdown nav-dropdown-row">
+                                <li>
+                                    <a href="../mecirim lahorim/mcirim lahorim.html">מכירים להורים▾</a>
+                                    <ul class="nav-dropdown nav-dropdown-col">
+                                        <li>
+                                            <a href="https://limorgold.github.io/piggi_bank/piggi%20bank.html">לא קמצן חסכן</a>
+                                        </li>
+                                        <li>
+                                            <a class="not-allowed" href="#!">רוצה מול צריך</a>
+                                        </li>
+                                        <li>
+                                            <a class="not-allowed" href="#!">בזבוזים באחוזים</a>
+                                        </li>
+                                        <li>
+                                            <a class="not-allowed" href="#!">עושים את זה נכון</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="../holkim mafteach/holkim mafteach.html">חולקים מפתח▾</a>
+                                    <ul class="nav-dropdown nav-dropdown-col">
+                                        <li>
+                                            <a href="https://limorgold.github.io/piggi_bank/piggi%20bank.html">לא קמצן חסכן</a>
+                                        </li>
+                                        <li>
+                                            <a class="not-allowed" href="#!">רוצה מול צריך</a>
+                                        </li>
+                                        <li>
+                                            <a class="not-allowed" href="#!">בזבוזים באחוזים</a>
+                                        </li>
+                                        <li>
+                                            <a class="not-allowed" href="#!">עושים את זה נכון</a>
+                                        </li>
+                                        <li>
+                                            <a class="not-allowed" href="#!">המדריך לניירת</a>
+                                        </li>
+                                        <li>
+                                            <a href="../ShekelLavan.holkim mafth/shekelLavan.holkim mafth.html">שקל לבן ליום שחור</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="..//tkoim yhad/tkoim yhad/tkoim yhad.html">תקועים יחד▾  </a>
+                                    <ul class="nav-dropdown nav-dropdown-col">
+                                        <li>
+                                            <a href="https://limorgold.github.io/piggi_bank/piggi%20bank.html">לא קמצן חסכן</a>
+                                        </li>
+                                        <li>
+                                            <a class="not-allowed" href="#!">רוצה מול צריך</a>
+                                        </li>
+                                        <li>
+                                            <a class="not-allowed" href="#!">בזבוזים באחוזים</a>
+                                        </li>
+                                        <li>
+                                            <a class="not-allowed" href="#!">עושים את זה נכון</a>
+                                        </li>
+                                        <li>
+                                            <a class="not-allowed" href="#!">המדריך לניירת</a>
+                                        </li>
+                                        <li>
+                                            <a href="../ShekelLavan.tkoim yhad.HTML/shekelLavan.tkoim yhad.html">שקל לבן ליום שחור</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="../About.HTML/about.html">אודות</a>
+                        </li>
+
+                        <li>
+                            <a href="../ContactUs.HTML/contactUS.html">צור קשר</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="brand">
+                    <a href="../homepage/index.html">
+                        <img src="imeg/logo.svg" />
+                    </a>
+                </div>
+            </div>
+        </section>
+        <input id="ngishot" type="button" onclick="zoom()" value="Aa" />
+        <script>
+            var zoomin = true;
+            function zoom() {
+                var body = document.getElementsByTagName('body')[0];
+                zoomin == true ? body.style.zoom = "200%" : body.style.zoom = "100%";
+                zoomin == true ? zoomin = false : zoomin = true;
+            }
+        </script>
+        <article role="main">
+            <nav id="pirori"><a href="../homepage/index.html">דף הבית</a> / <b>צור קשר</b></nav>
+            <h1>צור קשר</h1>
+            <span id="koteret1">
+                צוות המומחים שלנו כאן לכל שאלה,<br />
+                מלאו את הפרטים וניצור איתכם קשר בהקדם!
+            </span>
+            <section id="tochan">
+
+                <form>
+                    <input type="hidden" id="myemail" value="rshari12@gmail.com" />
+                    <section id="section1">
+                        <label for="fullname">
+                            <span>*שם מלא</span><br />
+                            <input type="text" id="fullname" /><br /><br />
+                        </label>
+                        <label for="e-mail">
+                            <span>*כתובת מייל</span><br />
+                            <input type="email" id="e-mail" /><br /><br />
+                        </label>
+                        <label for="city">
+                            <span>*עיר מגורים</span><br />
+                            <select id="city">
+                                <option value="0613">אביגדור</option>
+                                <option value="0116">אבן יהודה</option>
+                                <option value="0328">אודים</option>
+                                <option value="1041">אום אל-פחם</option>
+                                <option value="0016">אופקים</option>
+                                <option value="2769">אור יהודה</option>
+                                <option value="0712">אור עקיבא</option>
+                                <option value="0987">אורות</option>
+                                <option value="0406">אזור</option>
+                                <option value="1034">אילת</option>
+                                <option value="0929">אלעד</option>
+                                <option value="1062">אריאל</option>
+                                <option value="0044">אשדוד</option>
+                                <option value="1241">אשקלון</option>
+                                <option value="1700">באקה אל-גרביה</option>
+                                <option value="0094">באר טוביה</option>
+                                <option value="1259">באר שבע</option>
+                                <option value="0403">בית אלעזרי</option>
+                                <option value="0343">בית דגן</option>
+                                <option value="0661">בית חירות</option>
+                                <option value="0133">בית ינאי</option>
+                                <option value="0225">בית יצחק-שער חפר</option>
+                                <option value="1035">בית שמש</option>
+                                <option value="1231">בני ברק</option>
+                                <option value="1696">בנימינה</option>
+                                <option value="1232">בת ים</option>
+                                <option value="0486">גבעת שמואל</option>
+                                <option value="1233">גבעתיים</option>
+                                <option value="1032">גדרה</option>
+                                <option value="0129">גיבתון</option>
+                                <option value="0156">גן חיים</option>
+                                <option value="0626">גנות</option>
+                                <option value="0399">גנות הדר</option>
+                                <option value="0649">גני יוחנן</option>
+                                <option value="1698">דאלית אל-כרמל</option>
+                                <option value="1027">דימונה</option>
+                                <option value="1266">הוד השרון</option>
+                                <option value="1234">הרצליה</option>
+                                <option value="1262">זכרון יעקב</option>
+                                <option value="0154">חבצלת השרון</option>
+                                <option value="1235">חדרה</option>
+                                <option value="1236">חולון</option>
+                                <option value="0074">חופית</option>
+                                <option value="2779">חיפה</option>
+                                <option value="0100">חירות</option>
+                                <option value="0595">חמד</option>
+                                <option value="1237">טבריה</option>
+                                <option value="1043">טייבה</option>
+                                <option value="1026">טירת כרמל</option>
+                                <option value="1258">טמרה</option>
+                                <option value="1040">יבנה</option>
+                                <option value="1263">יהוד-מונוסון</option>
+                                <option value="0157">יקנעם עילית</option>
+                                <option value="0624">ירוחם</option>
+                                <option value="1046">ירושלים</option>
+                                <option value="0117">ירקונה</option>
+                                <option value="1692">כוכב יאיר</option>
+                                <option value="0113">כפר ביל"ו</option>
+                                <option value="0167">כפר המכבי</option>
+                                <option value="0120">כפר הס</option>
+                                <option value="0123">כפר ויתקין</option>
+                                <option value="0221">כפר ורבורג</option>
+                                <option value="0106">כפר יונה</option>
+                                <option value="0065">כפר מל"ל</option>
+                                <option value="0217">כפר נטר</option>
+                                <option value="1239">כפר סבא</option>
+                                <option value="0122">כפר פינס</option>
+                                <option value="0176">כפר שמריהו</option>
+                                <option value="0784">כרמיאל</option>
+                                <option value="1240">לוד</option>
+                                <option value="0350">מגאר</option>
+                                <option value="0659">מגדל העמק</option>
+                                <option value="1173">מודיעין עילית</option>
+                                <option value="0838">מודיעין-מכבים-רעות</option>
+                                <option value="0014">מזכרת בתיה</option>
+                                <option value="0025">מטולה</option>
+                                <option value="0273">מכמורת</option>
+                                <option value="1088">מעלה אדומים</option>
+                                <option value="0736">מעלות-תרשיחא</option>
+                                <option value="0066">מצפה רמון</option>
+                                <option value="0529">משמר השבעה</option>
+                                <option value="0309">משמרת</option>
+                                <option value="1260">נהרייה</option>
+                                <option value="0491">נווה ימין</option>
+                                <option value="0329">נורדיה</option>
+                                <option value="1242">נס ציונה</option>
+                                <option value="1243">נצרת</option>
+                                <option value="0735">נצרת עילית</option>
+                                <option value="1030">נשר</option>
+                                <option value="0160">נתיבות</option>
+                                <option value="1244">נתניה</option>
+                                <option value="1245">סח'נין</option>
+                                <option value="1002">עדנים</option>
+                                <option value="0473">עומר</option>
+                                <option value="0146">עין עירון</option>
+                                <option value="0662">עין שריד</option>
+                                <option value="1246">עכו</option>
+                                <option value="1247">עפולה</option>
+                                <option value="1033">ערד</option>
+                                <option value="1248">פרדס חנה-כרכור</option>
+                                <option value="0108">פרדסיה</option>
+                                <option value="1249">פתח תקווה</option>
+                                <option value="0131">צופית</option>
+                                <option value="1691">צורן</option>
+                                <option value="1250">צפת</option>
+                                <option value="1690">קדימה</option>
+                                <option value="0809">קיסריה</option>
+                                <option value="1198">קצרין</option>
+                                <option value="1036">קריית אונו</option>
+                                <option value="1238">קריית אתא</option>
+                                <option value="1264">קריית ביאליק</option>
+                                <option value="1037">קריית גת</option>
+                                <option value="1028">קריית טבעון</option>
+                                <option value="1265">קריית ים</option>
+                                <option value="1251">קריית מוצקין</option>
+                                <option value="0715">קריית מלאכי</option>
+                                <option value="0344">קריית עקרון</option>
+                                <option value="1045">קריית שמונה</option>
+                                <option value="1038">ראש העין</option>
+                                <option value="0012">ראש פינה</option>
+                                <option value="1252">ראשון לציון</option>
+                                <option value="0804">רהט</option>
+                                <option value="1253">רחובות</option>
+                                <option value="0137">רמות השבים</option>
+                                <option value="1254">רמלה</option>
+                                <option value="2770">רמת גן</option>
+                                <option value="0118">רמת הכובש</option>
+                                <option value="1039">רמת השרון</option>
+                                <option value="1256">רעננה</option>
+                                <option value="0161">רשפון</option>
+                                <option value="0188">שדה ורבורג</option>
+                                <option value="0714">שדרות</option>
+                                <option value="1257">שפרעם</option>
+                                <option value="1212">תל אביב - יפו</option>
+                                <option value="0093">תל מונד</option>
+                                <option value="0878">תמרת</option>
+                            </select>
+                            <br /><br />
+                        </label>
+                        <label for="SendMail">
+                            <input type="checkbox" id="SendMail" /><span> שלחו לי עדכונים במייל </span>
+                        </label>
+                    </section>
+                    <section id="section2">
+                        <label for="cellphoneNumber">
+                            <span>*מספר פלאפון</span><br />
+                            <input type="tel" id="cellphoneNumber" /><br /><br />
+                        </label>
+                        <label for="Status">
+                            <input type="radio" id="Status1" checked name="מכירים להורים" />
+                            <span>מכירים להורים</span>
+                            <input type="radio" id="Status2" name="חולקים מפתח" />
+                            <span>חולקים מפתח</span>
+                            <input type="radio" id="Status3" name="תקועים יחד" />
+                            <span>תקועים יחד</span><br /><br />
+                        </label>
+                        <label for="userHelp">
+                            <span>*במה נוכל לעזור</span><br />
+                            <textarea id="userHelp" placeholder="הקלד את שאלתך כאן..." rows="5"></textarea>
+                        </label>
+                    </section>
+                    <div id="brush1"></div>
+                    <label for="send">
+                        <input type="submit" id="sendForm" value="שלח" />
+                    </label>
+                    <div id="feedback"></div>
+                </form>
+            </section>
+        </article>
+
+        <footer>
+            <div id="footer"></div>
+            <ul id="mcirim">
+                <li class="firstrow"><a href="../mecirim lahorim/mcirim lahorim.html">מכירים להורים</a></li>
+                <li><a href="https://limorgold.github.io/piggi_bank/piggi%20bank.html">לא קמצן, חסכן!</a></li>
+                <li><a class="not-allowed" href="#!">רוצה מול צריך</a></li>
+                <li><a class="not-allowed" href="#!">בזבוזים באחוזים</a></li>
+                <li><a class="not-allowed" href="#!">עושים את זה נכון</a></li>
+            </ul>
+            <ul id="holkim">
+                <li class="firstrow"><a href="../holkim mafteach/holkim mafteach.html">חולקים מפתח</a></li>
+                <li><a href="https://limorgold.github.io/piggi_bank/piggi%20bank.html">לא קמצן, חסכן!</a></li>
+                <li><a class="not-allowed" href="#!">רוצה מול צריך</a></li>
+                <li><a class="not-allowed" href="#!">בזבוזים באחוזים</a></li>
+                <li><a class="not-allowed" href="#!">עושים את זה נכון</a></li>
+                <li><a class="not-allowed" href="#!">המדריך לניירת</a></li>
+                <li><a href="../ShekelLavan.holkim mafth/shekelLavan.holkim mafth.html">שקל לבן ליום שחור</a></li>
+            </ul>
+
+            <ul id="tkoim">
+                <li class="firstrow"><a href="../tkoim yhad/tkoim yhad/tkoim yhad.html">תקועים יחד</a></li>
+                <li><a href="https://limorgold.github.io/piggi_bank/piggi%20bank.html">לא קמצן, חסכן!</a></li>
+                <li><a class="not-allowed" href="#!">רוצה מול צריך</a></li>
+                <li><a class="not-allowed" href="#!">בזבוזים באחוזים</a></li>
+                <li><a class="not-allowed" href="#!">עושים את זה נכון</a></li>
+                <li><a class="not-allowed" href="#!">המדריך לניירת</a></li>
+                <li><a href="../ShekelLavan.tkoim yhad.HTML/shekelLavan.tkoim yhad.html">שקל לבן ליום שחור</a></li>
+            </ul>
+
+            <ul id="aboutus">
+                <li><a href="../About.HTML/about.html">אודות</a></li>
+                <li><a href="../ContactUs.HTML/contactUS.html">צור קשר</a></li>
+            </ul>
+        </footer>
+    </div>
+</body>
+</html>
